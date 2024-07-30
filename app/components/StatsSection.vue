@@ -26,29 +26,26 @@
           <h6
             class="font-bold mb-2 text-primary-600 dark:text-primary-200 uppercase"
           >
-            Our Work
+            我们的工作
           </h6>
-          <h3 class="capitalize mb-6">Impact we make</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pulvinar faucibus neque, nec rhoncus nunc ultrices sit amet.
-          </p>
+          <h3 class="capitalize mb-6">我们产生的影响</h3>
+          <p>解决痛苦本身很重要，教育精英也很重要。</p>
           <div class="-mx-4 flex flex-wrap items-center">
             <div class="px-4 py-6 w-1/2">
               <h2 class="mb-2">1200+</h2>
-              <p>Animals Adopted</p>
+              <p>领养动物</p>
             </div>
             <div class="px-4 py-6 w-1/2">
               <h2 class="mb-2">1000+</h2>
-              <p>Families United</p>
+              <p>家庭团结</p>
             </div>
             <div class="px-4 py-6 w-1/2">
               <h2 class="mb-2">20+</h2>
-              <p>Active Volunteers</p>
+              <p>活跃志愿者</p>
             </div>
             <div class="px-4 py-6 w-1/2">
               <h2 class="mb-2">10K+</h2>
-              <p>Animals Helped</p>
+              <p>动物有帮助</p>
             </div>
           </div>
         </div>

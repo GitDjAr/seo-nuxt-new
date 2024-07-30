@@ -21,7 +21,7 @@
 </script>
 <template>
   <dl>
-    <dt class="sr-only">Published on</dt>
+    <dt class="sr-only">发表于</dt>
     <dd>
       <time :datetime="getDateTime(date)">{{ formatDate(date) }}</time>
     </dd>

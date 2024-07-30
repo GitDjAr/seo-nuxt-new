@@ -27,8 +27,8 @@
         </div>
       </div>
       <h6>
-        <NuxtLink class="link" aria-label="read more" :to="post._path"
-          >Read more →</NuxtLink
+        <NuxtLink class="link" aria-label="加载更多" :to="post._path"
+          >加载更多 →</NuxtLink
         >
       </h6>
     </div>

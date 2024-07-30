@@ -29,7 +29,7 @@
   >
     <ContentRenderer id="content" :value="post">
       <template #empty>
-        <p>No content found.</p>
+        <p>没有内容</p>
       </template>
     </ContentRenderer>
   </div>

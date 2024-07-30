@@ -44,8 +44,7 @@
         {{ is404 ? 'This page could not be found' : 'An error occurred' }}
       </div>
       <div style="font-size: 1.25rem; line-height: 1.75rem opacity: 0.5;">
-        Looks like you've followed a broken link or entered a URL that doesn't
-        exist on this site.
+        您似乎访问了损坏的链接或输入了无效的网址 存在于该网站上。
       </div>
       <pre v-if="isDev" style="width: 100%; white-space: normal">{{
         error

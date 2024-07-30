@@ -120,7 +120,7 @@
                       height="24px"
                       class="text-tertiary-600 dark:text-tertiary-200"
                     />
-                    <span class="ml-2">Microchipped</span>
+                    <span class="ml-2">微芯片</span>
                   </li>
                   <li
                     class="flex items-center justify-center mt-4 lg:justify-start"
@@ -144,18 +144,16 @@
           </div>
           <div class="mt-8 px-8 text-center lg:text-left">
             <p>
-              To adopt
+              采用
               <span class="mx-1 text-primary-600 dark:text-primary-200"
                 >{{ name }} </span
-              ><span>or learn more, please visit our adoption centre at </span
+              ><span>或了解更多信息，请访问我们的收养中心： </span
               ><span class="mx-1 text-primary-600 dark:text-primary-200"
                 >{{ location }}.</span
-              ><span
-                >Appointments are not required and walk-ins are welcome.</span
-              >
+              ><span>无需预约，欢迎直接前来。</span>
             </p>
             <p class="mt-2">
-              Alternatively, please contact our {{ location }} team directly on
+              或者，请直接联系我们的{{ location }}团队
               <span class="text-primary-600 dark:text-primary-200"
                 >03 2394 3284</span
               >

@@ -6,7 +6,7 @@
     // name: 'index',
     // alias: 'index',
     title: 'Home',
-    description: 'Thousands of homeless pets, one act of kindness!',
+    description: '数千只无家可归的宠物，一份善举！',
     navOrder: 1,
     type: 'primary',
     icon: 'i-mdi-home',

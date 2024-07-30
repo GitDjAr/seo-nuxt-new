@@ -55,7 +55,7 @@
             variant="ghost"
             class="flex font-medium text-sm"
             @click="scrollBehavior"
-            ><span>Back to top</span>
+            ><span>top</span>
             <BaseIcon name="i-material-symbols-arrow-upward" class="ml-1" />
           </BaseButton>
         </div>

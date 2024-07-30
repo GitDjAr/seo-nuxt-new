@@ -21,11 +21,11 @@
       cover: true,
       ...optimizeImage(
         img,
-        /* options */
+        /*选项*/
         {
-          // placeholder: false, // placeholder image before the actual image is fully loaded.
+          //placeholder: false, //实际图像完全加载之前的占位符图像。
         },
-        true /* return bgStyles */,
+        true /*返回背景样式*/,
       ),
     }
   })

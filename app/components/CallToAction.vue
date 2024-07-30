@@ -21,14 +21,10 @@
   <section class="container mx-auto px-4 py-12">
     <div>
       <h6 class="text-primary-600 dark:text-primary-200 text-center uppercase">
-        Get Involved
+        参与其中
       </h6>
-      <h3 class="capitalize mt-3 text-center">
-        Small gesture for a big impact
-      </h3>
-      <p class="mt-4 text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      </p>
+      <h3 class="capitalize mt-3 text-center">小举动产生大影响</h3>
+      <p class="mt-4 text-center">客户很重要，有了客户才会跟着客户。</p>
     </div>
     <div class="-mx-4 flex flex-wrap justify-center mt-12">
       <CallToActionCard

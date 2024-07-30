@@ -1,135 +1,135 @@
-# Happy Paws - Fullstack, SEO friendly, performant app with Nuxt & Tailwind CSS
+# Happy Paws - 使用Nuxt和Tailwind CSS的全栈、SEO友好、高性能应用
 
-Nuxt 3 Fullstack (SPA-SSR) app for an pet adoption organisation. Pet data is fetched via APIs served by server routes (Nitro-powered), statically generated articles fetched from an external REST API source, a blog authored with markdown files, and everything styled with the power and beauty of Tailwind CSS.
+这是一个使用Nuxt 3全栈(SPA-SSR)开发的宠物领养组织应用。宠物数据通过服务器路由(由Nitro驱动)的API获取,静态生成的文章从外部REST API源获取,博客使用markdown文件编写,所有内容都使用Tailwind CSS的强大功能和美观性进行样式设计。
 
-This is a sample project created using the [Vue Designer Nuxt Tailwind CSS - Quick start template](https://github.com/pinegrow/pg-nuxt-tailwindcss).
+这是一个使用[Vue Designer Nuxt Tailwind CSS - 快速启动模板](https://github.com/pinegrow/pg-nuxt-tailwindcss)创建的示例项目。
 
-Demo - https://happy-paws-with-nuxt-tailwindcss.netlify.app/
+演示 - https://happy-paws-with-nuxt-tailwindcss.netlify.app/
 
 ## Vue Designer
 
-A desktop visual editor for Vue apps supporting Mac, Windows, and Linux by [Pinegrow](https://pinegrow.com/). Take it for a free trial at [Vue Designer](https://vuedesigner.com)!
+这是一个由[Pinegrow](https://pinegrow.com/)开发的支持Mac、Windows和Linux的Vue应用桌面可视化编辑器。您可以在[Vue Designer](https://vuedesigner.com)免费试用!
 
-It lets you visually design 🎨 your Vue single file components and boosts your productivity and creativity while building your component-based Vue apps.
+它允许您可视化设计🎨您的Vue单文件组件,并在构建基于组件的Vue应用时提高您的生产力和创造力。
 
-It smartly integrates with your ⚡️ [Vite](https://vitejs.dev/) based CLI and provides an amazing developer experience with its powerful visual controls and features.
+它智能地集成了⚡️[Vite](https://vitejs.dev/)基础的CLI,并通过其强大的可视化控件和功能提供了惊人的开发体验。
 
-Clean code 😃, No lock-in - You are in control of your projects and development workflow ❤️
+干净的代码😃,无锁定 - 您可以完全控制您的项目和开发工作流程❤️
 
-## Try it now!
+## 立即尝试!
 
-### 1. Clone to local
+### 1. 克隆到本地
 
-[Create a repo from this template on GitHub](https://github.com/pinegrow/happy-paws-with-nuxt-tailwindcss/generate).
+[在GitHub上从此模板创建仓库](https://github.com/pinegrow/happy-paws-with-nuxt-tailwindcss/generate)。
 
-(or)
+(或者)
 
-If you prefer to do it manually with the cleaner git history
+如果您更喜欢手动操作并保持较干净的git历史记录
 
 ```bash
-npx giget@latest gh:pinegrow/happy-paws-with-nuxt-tailwindcss my-happy-paws-with-nuxt-tailwindcss-app #project-name
+npx giget@latest gh:pinegrow/happy-paws-with-nuxt-tailwindcss my-happy-paws-with-nuxt-tailwindcss-app #项目名称
 cd my-happy-paws-with-nuxt-tailwindcss-app
-npm install #or use pnpm
+npm install #或使用pnpm
 ```
 
-## 2. Open in Vue Designer
+## 2. 在Vue Designer中打开
 
-Open your project in Vue Designer and follow the instructions displayed in the Config Panel (that should pop out automatically). Config Panel ⚙️ displays the key packages and the various links to their individual ecosystems and communities.
+在Vue Designer中打开您的项目,并按照配置面板中显示的说明进行操作(应该会自动弹出)。配置面板⚙️显示了关键包以及各个生态系统和社区的各种链接。
 
-## Usage
+## 使用方法
 
-### Start your development server
+### 启动开发服务器
 
 ```bash
 npm run dev
 ```
 
-### Build
+### 构建
 
 ```bash
 npm run build # SPA SSR,
-npm run generate # SPA SSG (full-static)
+npm run generate # SPA SSG (完全静态)
 ```
 
-### Analyze
+### 分析
 
 ```bash
-npm run analyze # bundle sizes
+npm run analyze # 包大小分析
 ```
 
-### Preview
+### 预览
 
 ```bash
-npm run now # build & preview
+npm run now # 构建和预览
 ```
 
 ### Lighthouse
 
 ```bash
-npm run unlighthouse # Uses npx unlighthouse from https://unlighthouse.dev/ to run lighthouse on entire site (all pages)
+npm run unlighthouse # 使用来自https://unlighthouse.dev/的npx unlighthouse对整个站点(所有页面)运行lighthouse
 ```
 
-### Deploy to Netlify
+### 部署到Netlify
 
-You can deploy this repo as a site on your own to explore and experiment with, by clicking this button.
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Pinegrow/happy-paws-with-nuxt-tailwindcss)
+您可以通过点击此按钮将此仓库部署为您自己的站点以进行探索和实验。
+[![部署到Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Pinegrow/happy-paws-with-nuxt-tailwindcss)
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+查看[部署文档](https://nuxt.com/docs/getting-started/deployment)以获取更多信息。
 
-## Pre-packed
+## 预装内容
 
-### Meta Framework (Vue-based)
+### 元框架(基于Vue)
 
-- [Nuxt](https://nuxt.com/) - The Intuitive Vue Framework
-  - 👉 Follow the Nuxt docs for the amazing list of [features](https://nuxt.com/docs/getting-started/introduction).
-  - 🚦 [Nuxt-Router](https://nuxt.com/docs/getting-started/routing), based on the official [Vue-Router](https://vuejs.org/guide/introduction.html) and enables file-based routing.
-  - SSR friendly `useState` composable to share state across components.
+- [Nuxt](https://nuxt.com/) - 直观的Vue框架
+  - 👉 查看Nuxt文档以了解令人惊叹的[功能](https://nuxt.com/docs/getting-started/introduction)列表。
+  - 🚦 [Nuxt-Router](https://nuxt.com/docs/getting-started/routing),基于官方[Vue-Router](https://vuejs.org/guide/introduction.html),支持基于文件的路由。
+  - SSR友好的`useState`组合式API,用于在组件之间共享状态。
 
-### UI Frameworks
+### UI框架
 
-- [Tailwind CSS](https://tailwindcss.com/docs/guides/nuxtjs#3) - The amazing utility-first CSS framework.
+- [Tailwind CSS](https://tailwindcss.com/docs/guides/nuxtjs#3) - 令人惊叹的实用优先CSS框架。
 
-### File-based CMS (markdown)
+### 基于文件的CMS(markdown)
 
-- [Nuxt Content](https://github.com/nuxt/content) - file-based CMS powered by Markdown & Vue components. Note: This page is a markdown file 🗒.
+- [Nuxt Content](https://github.com/nuxt/content) - 由Markdown和Vue组件驱动的基于文件的CMS。注意:本页面就是一个markdown文件🗒。
 
-### Icons
+### 图标
 
-- [UnoCSS Preset Icons](https://github.com/unocss/unocss/tree/main/packages/preset-icons/) - use over 100,000 open-source [Iconify](https://iconify.design/) icons. Uses the **unocss** format for icon names, for example, `i-mdi-home`.
+- [UnoCSS Preset Icons](https://github.com/unocss/unocss/tree/main/packages/preset-icons/) - 使用超过100,000个开源[Iconify](https://iconify.design/)图标。使用**unocss**格式的图标名称,例如`i-mdi-home`。
 
-### Modules/Plugins
+### 模块/插件
 
-- [Pinegrow Nuxt Module](https://www.npmjs.com/package/@pinegrow/nuxt-module) - enables you to live-design your Vue single-file components visually in Vue Designer.
-- [Pinegrow Tailwind CSS Plugin](https://www.npmjs.com/package/@pinegrow/tailwindcss-plugin) - via Design Panel, enables visual controls customization (automatic) and theme customization (optional).
-- [VueUse](https://vueuse.org/) - collection of essential Vue composition utilities.
-- 🍍 [Pinia](https://pinia.vuejs.org/ssr/nuxt.html) stores for global state management via the `@pinia/nuxt module`. Its light-weight, type-safe, extensible, modular with vue-devtools support.
-- [VeeValidate](https://vee-validate.logaretm.com/v4/integrations/nuxt/) takes care of value tracking, validation, errors, submissions and more.
-- [Nuxt Image](https://image.nuxt.com/) - Plug-and-play image optimization for Nuxt apps.
-- [Nuxt SEO](https://nuxtseo.com/) - Amazing collection of hand-crafted Nuxt Modules for all SEO needs with a unified site config. Includes `nuxt-site-config`, `nuxt-simple-robots`, `nuxt-simple-sitemap`, `nuxt-og-image`, `nuxt-link-checker`, `nuxt-seo-experiments`, `nuxt-schema-org`.
-  - OG images and nuxtseo features can be previewed with nuxt-devtools during development. OG images can also be viewed using URL in this form - `/__og-image__/image/<path>/og.<extension>`
+- [Pinegrow Nuxt模块](https://www.npmjs.com/package/@pinegrow/nuxt-module) - 使您能够在Vue Designer中可视化地实时设计Vue单文件组件。
+- [Pinegrow Tailwind CSS插件](https://www.npmjs.com/package/@pinegrow/tailwindcss-plugin) - 通过设计面板,启用可视化控件自定义(自动)和主题自定义(可选)。
+- [VueUse](https://vueuse.org/) - 基本Vue组合式工具集合。
+- 🍍 [Pinia](https://pinia.vuejs.org/ssr/nuxt.html) 用于全局状态管理,通过`@pinia/nuxt模块`。它轻量、类型安全、可扩展、模块化,支持vue-devtools。
+- [VeeValidate](https://vee-validate.logaretm.com/v4/integrations/nuxt/) 处理值跟踪、验证、错误、提交等。
+- [Nuxt Image](https://image.nuxt.com/) - Nuxt应用的即插即用图像优化。
+- [Nuxt SEO](https://nuxtseo.com/) - 一个令人惊叹的手工制作的Nuxt模块集合,用于所有SEO需求,具有统一的站点配置。包括`nuxt-site-config`、`nuxt-simple-robots`、`nuxt-simple-sitemap`、`nuxt-og-image`、`nuxt-link-checker`、`nuxt-seo-experiments`、`nuxt-schema-org`。
+  - 在开发过程中,可以使用nuxt-devtools预览OG图像和nuxtseo功能。OG图像也可以使用这种形式的URL查看 - `/__og-image__/image/<path>/og.<extension>`
 
-### Devtools
+### 开发工具
 
-- [Nuxt Devtools](https://devtools.nuxtjs.org) - Enhance your DX (developer experience) with an amazing set of in-app features.
-- [Vue Devtools](https://devtools.vuejs.org/guide/installation.html#standalone) - Official devtools that can be used as a standalone app alongside Vue Designer. It's configured as a Nuxt plugin (only during development).
-  - **ACTION REQUIRED**: Currently deactivated. In `plugins/devtools.client.ts`, uncomment to activate.
+- [Nuxt Devtools](https://devtools.nuxtjs.org) - 通过一组令人惊叹的应用内功能增强您的DX(开发者体验)。
+- [Vue Devtools](https://devtools.vuejs.org/guide/installation.html#standalone) - 官方开发工具,可以作为独立应用与Vue Designer一起使用。它被配置为Nuxt插件(仅在开发过程中)。
+  - **需要操作**: 目前已停用。在`plugins/devtools.client.ts`中取消注释以激活。
 
-### VS Code Extensions
+### VS Code扩展
 
-- [VS Code Extensions](./.vscode/extensions.json & ./.vscode/settings.json)
-  - [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) - Vue 3 `<script setup>` IDE support
+- [VS Code扩展](./.vscode/extensions.json & ./.vscode/settings.json)
+  - [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) - Vue 3 `<script setup>` IDE支持
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
   - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-### Coding Style
+### 编码风格
 
-- Use Composition API with [`<script setup>` SFC syntax](https://vuejs.org/guide/scaling-up/sfc.html)
-- [ESLint](https://eslint.org) with [@nuxt/eslint](https://eslint.nuxt.com/packages/module) Nuxt ESLint module that adopts ESLint 9 with a new flat config.
-- [Prettier](https://prettier.io) with [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) - format without conflicting with eslint rules.
+- 使用组合式API和[`<script setup>` SFC语法](https://vuejs.org/guide/scaling-up/sfc.html)
+- [ESLint](https://eslint.org)使用[@nuxt/eslint](https://eslint.nuxt.com/packages/module) Nuxt ESLint模块,采用ESLint 9并使用新的平面配置。
+- [Prettier](https://prettier.io)与[eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) - 格式化而不与eslint规则冲突。
 
-### Typescript
+### TypeScript
 
-This project allows JS, and strict mode is turned off. Update `tsconfig.ts` as required.
+此项目允许JS,并且已关闭严格模式。根据需要更新`tsconfig.ts`。
 
 ```json
 {
@@ -142,6 +142,6 @@ This project allows JS, and strict mode is turned off. Update `tsconfig.ts` as r
 }
 ```
 
-## Community
+## 社区
 
-- [Vue Designer Community](https://discord.gg/BYp45Nnu5T)
+- [Vue Designer社区](https://discord.gg/BYp45Nnu5T)

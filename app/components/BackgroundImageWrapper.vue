@@ -26,23 +26,23 @@
     cover: props.cover,
     ...optimizeImage(
       props.imageUrl,
-      /* options */
+      /*选项*/
       {
-        // placeholder: false, // placeholder image before the actual image is fully loaded.
-        placeholder: props.placeholder, // placeholder image before the actual image is fully loaded.
+        //placeholder: false, //实际图像完全加载之前的占位符图像。
+        placeholder: props.placeholder, //实际图像完全加载之前的占位符图像。
       },
-      true /* return bgStyles */,
+      true /*返回背景样式*/,
     ),
   }
 
-  // const heroImage = imageOptimized.src
+  //const HeroImage = imageOptimized.src
   const bgStyles = imageOptimized.bgStyles
 </script>
 <template>
   <div class="bg-center bg-cover bg-no-repeat blur-none z-0" :style="bgStyles">
-    <!-- <div
-      class="bg-center bg-cover bg-no-repeat blur-none z-0 bg-design-image lg:bg-design-image-large"
-    > -->
+    <!--<div
+类 =“bg-center bg-cover bg-no-repeat 模糊-none z-0 bg-design-image lg：bg-design-image-large”
+>-->
     <slot />
   </div>
 </template>

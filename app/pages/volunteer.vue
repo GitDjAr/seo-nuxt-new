@@ -20,12 +20,9 @@
         <div class="mx-auto px-4 rounded-2xl w-full lg:w-8/12">
           <div class="px-6 py-12 rounded-lg tertiary-card">
             <h2 class="font-bold leading-tight mb-2 text-3xl">
-              Volunteer - Subscribe To Our Newsletter
+              志愿者 -订阅我们的时事通讯
             </h2>
-            <p class="mb-8">
-              Sign up for our newsletter to receive updates about the various
-              volunteering activities
-            </p>
+            <p class="mb-8">注册我们的时事通讯以接收有关各种更新 志愿活动</p>
             <form
               class="mx-auto sm:w-9/12 xl:w-8/12"
               action="https://www.getdrip.com/forms/243852739/submissions"

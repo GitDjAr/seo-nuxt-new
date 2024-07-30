@@ -23,7 +23,7 @@
       />
     </svg>
     <div class="absolute left-10 top-10 sm:left-20">
-      <slot>Header</slot>
+      <slot>头部</slot>
     </div>
   </div>
 </template>

@@ -10,7 +10,7 @@
   <dl
     class="dark:xl:border-gray-700 pb-10 pt-6 xl:border-b xl:border-gray-200 xl:pt-11"
   >
-    <dt class="sr-only">Authors</dt>
+    <dt class="sr-only">作者</dt>
     <dd>
       <ul
         class="flex justify-center xl:block space-x-8 sm:space-x-12 xl:space-x-0 xl:space-y-8"
@@ -32,7 +32,7 @@
             :src="avatar"
           />
           <dl class="text-sm font-medium leading-5 whitespace-nowrap">
-            <dt class="sr-only">Name</dt>
+            <dt class="sr-only">名字</dt>
             <dd>{{ author }}</dd>
             <dt v-if="twitter" class="sr-only">Twitter</dt>
             <dd v-if="twitter">

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  // inherited attrs can mess up the satori parser
+  //继承的属性可能会弄乱 satori 解析器
   defineOptions({
     inheritAttrs: false,
   })
@@ -58,7 +58,7 @@
     <div class="flex flex-row h-full pl-6 py-6 w-full">
       <div class="flex flex-col w-1/2">
         <div data-pg-name="Logo" class="flex flex-row items-center">
-          <!-- <Icon :name="logo" size="72" class="mt-4" /> -->
+          <!--<图标：名称=“标志”大小=“72”类=“mt-4”/>-->
           <svg
             version="1.0"
             xmlns="http://www.w3.org/2000/svg"
@@ -141,7 +141,7 @@
             {{ title }}
           </span>
         </div>
-        <!-- <h1 class="p-4 text-6xl text-white">{{ title }}</h1> -->
+        <!--<h1 class="p-4 text-6xl text-white">{{ 标题 }}</h1>-->
         <h5 class="mt-8 p-4 text-white text-4xl" style="white-space: normal">
           <span>{{ description }}</span>
         </h5>

@@ -10,17 +10,16 @@
         >
           <div class="px-4 text-center w-full">
             <h6 class="text-primary-100 dark:text-primary-700 uppercase">
-              Adopt A Pet
+              领养宠物
             </h6>
-            <h3 class="capitalize">Small Gesture For A Big Impact</h3>
+            <h3 class="capitalize">小举动产生大影响</h3>
             <p class="mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-              vitae congue tortor.
+              客户很重要，有了客户才会跟着客户。没有人 生活作业
             </p>
           </div>
           <div class="px-4 text-center w-full">
             <BaseButton size="xl" to="/adopt" color="secondary"
-              ><span>Meet Them All ></span>
+              ><span>认识他们所有人></span>
             </BaseButton>
           </div>
         </div>

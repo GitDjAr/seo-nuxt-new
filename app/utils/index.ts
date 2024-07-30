@@ -22,8 +22,8 @@ const extRE = /(index)?\.(md|html)$/
 const endingSlashRE = /\/$/
 
 /**
- * Remove `.md` or `.html` extention from the given path. It also converts
- * `index` to slush.
+ * 从给定路径中删除“.md”或“.html”扩展名。也是皈依者
+ * 'index' 到 slush 。
  */
 export function normalize(path: string): string {
   return ensureStartingSlash(

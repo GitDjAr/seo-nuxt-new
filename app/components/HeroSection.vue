@@ -1,10 +1,10 @@
 <script setup lang="ts">
   import { heroImageUrl } from '@/utils/hero'
 
-  const heroCaption = 'Adopt A Pet'
-  const heroTitle = 'Thousands of homeless dogs, one act of kindness'
+  const heroCaption = '领养宠物'
+  const heroTitle = '数千只无家可归的狗，一项善举'
   const heroDescription =
-    'Find your new furry friend today! We have a wide variety of lovable pets available for adoption. Come visit us and take home your new best friend!'
+    '今天就找到你的毛茸茸的新朋友吧！我们有各种各样的可爱宠物可供领养。快来拜访我们并将您最好的新朋友带回家！'
 </script>
 <template>
   <section class="container mx-auto pb-12 px-4">
@@ -18,15 +18,14 @@
               <h4
                 class="font-bold font-serif mb-1 text-primary-600 dark:text-primary-200 uppercase"
               >
-                Adopt A Pet
+                领养宠物
               </h4>
               <h1 class="capitalize leading-tight mb-2 text-white">
-                Thousands of homeless dogs, one act of kindness
+                数千只无家可归的狗，一项善举
               </h1>
               <p class="font-thin mb-6 text-gray-300">
-                Find your new furry friend today! We have a wide variety of
-                lovable pets available for adoption. Come visit us and take home
-                your new best friend!
+                今天就找到你的毛茸茸的新朋友吧！我们有各种各样的
+                可爱的宠物可供领养。来参观我们并带回家 你最好的新朋友！
               </p>
               <BaseButton
                 size="xl"

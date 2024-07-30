@@ -17,7 +17,7 @@
       <div class="container mx-auto px-4">
         <h2 class="mb-2 text-5xl">Articles</h2>
         <div class="flex items-center">
-          <h6>Source for this blog</h6>
+          <h6>本博客的来源</h6>
           <BaseButton
             size="xs"
             class="ml-2"
@@ -28,7 +28,7 @@
           </BaseButton>
         </div>
         <div class="flex items-center mt-2">
-          <h6>For free public APIs</h6>
+          <h6>免费的公共 API</h6>
           <BaseButton
             size="xs"
             class="ml-2"

@@ -94,9 +94,8 @@
             </div>
           </NuxtLink>
           <p class="mt-2 text-center w-full lg:text-left">
-            Duis pharetra venenatis felis, ut tincidunt ipsum consequat nec.
-            Fusce et porttitor libero, eu aliquam nisi. Nam finibus ullamcorper
-            semper.
+            Duis 箭袋毒害猫，因此 Tincidunt
+            本身并不是结果。自由公平的飞行，除了一些足球之外。事实上，身体始终处于极限。
           </p>
           <div class="inline-flex mt-6 space-x-3">
             <div class="flex flex-wrap space-x-4">
@@ -302,7 +301,7 @@
         <div class="flex flex-col sm:w-full md:items-end">
           <hr class="mb-4 opacity-25" />
           <p class="py-1 text-sm sm:text-center">
-            &copy; 2002 - 2021. All Rights Reserved - Company Name
+            &copy; 2002 -2021。保留所有权利 -公司名称
           </p>
         </div>
       </div>

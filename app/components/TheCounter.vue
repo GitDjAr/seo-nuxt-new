@@ -1,27 +1,22 @@
 <script setup lang="ts">
   const counterStore = useCounterStore()
 
-  /* 1. Pinia store state (ref, reactive, computed, etc) */
-
-  // ❌ Bad (unreactive):
-  // const { count, getCount, getDoubleCount } = counterStore
-
-  // ✔️ Good:
+  /*1. Pinia 存储状态（参考、反应、计算等）*/
+  //❌ 坏（无反应）：
+  //const { count, getCount, getDoubleCount } = counterStore
+  //✔️ 好：
   const { count, getCount } = storeToRefs(counterStore)
 
-  // count is reactive
+  //计数是反应性的
   const getDoubleCount = computed(() => count.value * 2)
 
-  /* 2. Pinia store actions */
+  /*2. Pinia商店行动*/
   const { increment, decrement } = counterStore
 </script>
 
 <template>
   <div>
-    <span
-      >Navigate across different routes, this counter from the pinia store is
-      preserved</span
-    >
+    <span>穿越不同的路线，pinia店的这个柜台是 保留</span>
     <BaseButton
       variant="soft"
       style="margin-left: 10px; margin-right: 10px"
