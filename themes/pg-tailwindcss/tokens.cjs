@@ -219,6 +219,15 @@ const pg_fonts = {
   serif: ["'Sora', sans-serif"],
 }
 
+const user_avatar = [
+
+  'https://q2.itc.cn/q_70/images03/20240714/5265b8330b054f4294314df029b3a530.jpeg',
+  'https://img0.baidu.com/it/u=1450269893,1819089861&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=800',
+  'https://ww1.sinaimg.cn/mw690/007aMX11ly1hra2350qo4j30u00u0gpr.jpg',
+  'https://ww4.sinaimg.cn/mw690/005UJ76vgy1hr7h5ezh50j30k00jwab6.jpg',
+  'https://img2.baidu.com/it/u=3049645377,2503563565&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500'
+]
+
 const pg_font_urls = [
   'https://fonts.googleapis.com/css?family=Proza+Libre:400,500,600,700,800|Sora:100,200,300,400,500,600,700,800&display=swap',
 ]
@@ -243,6 +252,7 @@ module.exports = {
   pg_font_urls,
   pg_backgrounds,
   pg_background_urls,
+  user_avatar,
 }
 
 /* Pinegrow generated Design Panel End */

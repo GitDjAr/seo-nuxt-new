@@ -11,7 +11,7 @@
     navOrder: '3',
     type: 'secondary',
     icon: 'i-mdi-home',
-    // ogImage: 'images/ogImage.png', // url or local images inside public folder, for eg, ~/public/images/ogImage.png
+    //og Image: 'images/og Image.png', //public 文件夹内的 url 或本地图像，例如 ~/public/images/ogImage.png
   })
 
   const slug =

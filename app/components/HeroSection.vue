@@ -1,10 +1,9 @@
 <script setup lang="ts">
   import { heroImageUrl } from '@/utils/hero'
 
-  const heroCaption = '领养宠物'
-  const heroTitle = '数千只无家可归的狗，一项善举'
-  const heroDescription =
-    '今天就找到你的毛茸茸的新朋友吧！我们有各种各样的可爱宠物可供领养。快来拜访我们并将您最好的新朋友带回家！'
+  const heroCaption = '领养宠dddddd物'
+  const heroTitle = '测试呀是不是titie'
+  const heroDescription = '今天就asdfasdfasdf新朋友带回家！'
 </script>
 <template>
   <section class="container mx-auto pb-12 px-4">
@@ -15,26 +14,25 @@
             class="-mx-4 flex flex-wrap items-center mt-24 space-y-6 lg:space-y-0"
           >
             <div class="px-4 w-full md:w-8/12 xl:w-6/12">
-              <h4
+              <h3
                 class="font-bold font-serif mb-1 text-primary-600 dark:text-primary-200 uppercase"
               >
-                领养宠物
-              </h4>
-              <h1 class="capitalize leading-tight mb-2 text-white">
-                数千只无家可归的狗，一项善举
+                2024年最新副业合集
+              </h3>
+              <h1 class="capitalize leading-tight py-4 text-white">
+                呕血之作, 为每一位用户提供最新最简单的副业!
               </h1>
               <p class="font-thin mb-6 text-gray-300">
-                今天就找到你的毛茸茸的新朋友吧！我们有各种各样的
-                可爱的宠物可供领养。来参观我们并带回家 你最好的新朋友！
+                90+真实副业资源、15+副业分类、预估收入/成本，具有操作步骤和建议学习资源。帮助你在2024年找到最适合自己的副业！
               </p>
               <BaseButton
                 size="xl"
-                label="Adopt Now"
+                label="让我们开始"
                 target="_blank"
                 to="https://github.com/pinegrow/happy-paws-with-nuxt-tailwindcss"
               >
-                <div class="inline-block ml-1 p-1.5 text-lg">Adopt Now</div>
-                <BaseIcon name="i-noto-dog-face" height="28px" />
+                <div class="inline-block ml-1 p-1.5 text-lg">让我们开始</div>
+                <BaseIcon height="28px" />
               </BaseButton>
             </div>
           </div>

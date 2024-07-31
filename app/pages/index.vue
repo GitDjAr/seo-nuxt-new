@@ -33,6 +33,7 @@
 <template>
   <div>
     <HeroSection />
+    <Favorable />
     <CallToAction />
     <MiniDivider />
     <OurMission />

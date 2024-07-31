@@ -17,16 +17,15 @@ const {
 
 export default defineNuxtConfig({
   extends: [
-    './app-nuxt-tailwindcss-layer', // NavBar and Footer components
+    './app-nuxt-tailwindcss-layer', // 导航栏和页脚组件
   ],
   // ssr: false,
-  // devtools: { enabled: false }, // enabled by default, disable when using standalone Vue devtools when using standalone Vue devtools
+  // devtools: {enabled: false }, //默认启用，使用独立 Vue devtools 时禁用
 
-  // Preparation for Nuxt 4 migration
+  // Nuxt 4 迁移准备工作
   future: {
     compatibilityVersion: 4,
   },
-
   // Before Nuxt 4 migration
   // srcDir: 'app',
   // serverDir: fileURLToPath(new URL('server', import.meta.url)),
@@ -34,16 +33,17 @@ export default defineNuxtConfig({
   //   public: fileURLToPath(new URL('public', import.meta.url)),
   //   modules: fileURLToPath(new URL('modules', import.meta.url)),
   // },
+  // },
 
   experimental: {
     componentIslands: true,
   },
 
   app: {
-    baseURL: '/', // defaulted by nuxt
-    // Look into HeadAndMeta.vue for the rest
+    baseURL: '/', // 默认为下一个
+    // 其余的请查看 HeadAndMeta.view
     head: {
-      meta: [{ charset: 'utf-8' }], // defaulted by nuxt
+      meta: [{ charset: 'utf-8' }], // nuxt默认
     },
   },
 
@@ -67,9 +67,9 @@ export default defineNuxtConfig({
     fonts: ['Inter', 'Kalam'],
   },
 
-  // https://dev.to/jacobandrewsky/optimizing-css-performance-in-nuxt-with-critters-4k8i
+  // https://dev.to/jacobandrewsky/利用 critters 4k8i 优化 nuxt 中的 css 性能
   critters: {
-    // Options passed directly to critters: https://github.com/GoogleChromeLabs/critters#critters-2
+    // 选项直接传递给小动物：https://github.com/GoogleChromeLabs/critters#critters-2
     config: {
       // Default: 'media'
       preload: 'swap',
@@ -147,9 +147,9 @@ export default defineNuxtConfig({
   },
 
   veeValidate: {
-    // disable or enable auto imports
+    // 禁用或启用自动导入
     autoImports: true,
-    // Use different names for components
+    // 为组件使用不同的名称
     componentNames: {
       Form: 'VeeForm',
       Field: 'VeeField',
@@ -159,7 +159,7 @@ export default defineNuxtConfig({
   },
 
   content: {
-    // Before Nuxt 4 migration
+    // Nuxt 4 迁移之前
     sources: {
       content: {
         driver: 'fs',
@@ -180,7 +180,7 @@ export default defineNuxtConfig({
       ],
     },
     highlight: {
-      //@ts-ignore
+      //@ts忽略
       langs: Object.keys(bundledLanguages),
       theme: 'dracula-soft',
     },
@@ -191,6 +191,7 @@ export default defineNuxtConfig({
   },
 
   imports: {
+    // 目录：['我的组件']，
     // dirs: ['my-components'],
   },
 
@@ -209,8 +210,7 @@ export default defineNuxtConfig({
     '/hidden': { robots: false },
   },
 
-  // Used by all modules in the @nuxtjs/seo collection
-  // https://nuxtseo.com/nuxt-seo/guides/configuring-modules
+  // 由 @nuxtjs/seo 集合中的所有模块使用 https://nuxtseo.com/nuxt-seo/guides/configuring-modules
   site: {
     url,
     name,
@@ -228,7 +228,7 @@ export default defineNuxtConfig({
   },
   sitemap: {
     // https://nuxtseo.com/sitemap/guides/i18n#debugging-hreflang
-    // Open {{site.url}}/sitemap.xml
+    // 打开 {{site.url}}/sitemap.xml
     xslColumns: [
       { label: 'URL', width: '50%' },
       { label: 'Last Modified', select: 'sitemap:lastmod', width: '12.5%' },
@@ -240,19 +240,20 @@ export default defineNuxtConfig({
       },
       { label: 'Hreflangs', select: 'count(xhtml:link)', width: '12.5%' },
     ],
-    // To turn off xls file when viewing sitemap.xml
+    // 查看 sitemap.xml 时关闭 xls 文件
     // xsl: false,
-    // Remove strictNuxtContentPaths if using nuxt-content in documentDriven mode
+    // 如果在 documentDriven 模式下使用 nuxt-content，请删除 strictNuxtContentPaths
     strictNuxtContentPaths: true,
   },
   ogImage: {
+
     // OG images and nuxtseo features can be previewed with nuxt-devtools during development. OG images can also be viewed using URL in this form - `/__og-image__/image/<path>/og.<extension>. For eg, https://happy-paws-with-nuxt-tailwindcss.netlify.app/__og-image__/image/og.png
     // fonts: ['Inter:400', 'Inter:700'],
     //
     // defaults: { width: 1200, height: 600, emojis: 'noto', renderer: 'satori', component: 'NuxtSeo', cacheMaxAgeSeconds: 60 * 60 * 24 * 3 },
     //
-    // disable at a global level
-    // runtimeCacheStorage: false,
+    // 在全局级别禁用
+    // 运行时缓存存储：假，
   },
   linkChecker: {
     enabled: false,
@@ -266,7 +267,7 @@ export default defineNuxtConfig({
   unocss: {
     presets: [
       presetIcons({
-        prefix: 'i-', // default prefix, do not change
+        prefix: 'i-', // 默认前缀，请勿更改
       }),
     ],
   },
@@ -288,14 +289,14 @@ export default defineNuxtConfig({
 
   pinegrow: {
     liveDesigner: {
-      iconPreferredCase: 'unocss', // default value (can be removed), Nuxt UI uses the unocss format for icon names
-      devtoolsKey: 'devtoolsKey', // see plugins/devtools.client.ts
+      iconPreferredCase: 'unocss', // 默认值（可以删除），Nuxt UI 使用 unocss 格式作为图标名称
+      devtoolsKey: 'devtoolsKey', // 参见plugins/devtools.client.ts
       tailwindcss: {
-        /* Please ensure that you update the filenames and paths to accurately match those used in your project. */
+        /* 请确保更新文件名和路径以准确匹配项目中使用的文件名和路径。*/
         configPath: 'tailwind.config.ts',
         cssPath: '@/assets/css/tailwind.css',
-        // themePath: false, // Set to false so that Design Panel is not used
-        // restartOnConfigUpdate: true,
+        // themePath: false, //设置为 false 以便不使用设计面板
+        // 重新启动配置更新：true，
         restartOnThemeUpdate: true,
       },
       // plugins: [

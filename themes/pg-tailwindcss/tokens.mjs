@@ -219,6 +219,15 @@ const pg_fonts = {
   serif: ["'Sora', sans-serif"],
 }
 
+const user_avatar = [
+  'https://q2.itc.cn/q_70/images03/20240714/5265b8330b054f4294314df029b3a530.jpeg',
+  'http://www.lhms.net/touxiangtu/202212101670654336552792.jpg',
+  'http://www.lhms.net/touxiangtu/202212101670654346508442.jpg',
+  'http://www.lhms.net/touxiangtu/3-21061PUI9-51.jpg',
+  'http://www.lhms.net/touxiangtu/3-21061PUI9-55.jpg',
+  'http://www.lhms.net/touxiangtu/3-21010G34H7.jpg'
+]
+
 const pg_font_urls = [
   'https://fonts.googleapis.com/css?family=Proza+Libre:400,500,600,700,800|Sora:100,200,300,400,500,600,700,800&display=swap',
 ]
@@ -237,6 +246,6 @@ const pg_background_urls = {
     'https://images.unsplash.com/photo-1534361960057-19889db9621e?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDMwfHxkb2d8ZW58MHx8fHwxNjgzMjc1MDI1&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=2000&fit=crop',
 }
 
-export { pg_colors, pg_fonts, pg_font_urls, pg_backgrounds, pg_background_urls }
+export { pg_colors, pg_fonts, pg_font_urls, pg_backgrounds, pg_background_urls, user_avatar }
 
 /* Pinegrow generated Design Panel End */

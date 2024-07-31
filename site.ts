@@ -1,5 +1,5 @@
-// since `.js, .ts` files are not included by default,
-// the following comment tells UnoCSS to force scan this file (to pick the logo icon).
+// 由于默认情况下不包含`.js、.ts`文件，
+// 以下注释告诉 UnoCSS 强制扫描此文件（以选择徽标图标）。
 // @unocss-include
 
 export default {

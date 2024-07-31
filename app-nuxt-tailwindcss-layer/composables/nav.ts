@@ -5,15 +5,15 @@ export const useNav = () => {
   const routes = useRouter().getRoutes()
 
   const navlinksFromRouter = routes
-    // Remove hidden routes
+    // 删除隐藏路线
     .filter((route) => route.meta.hidden !== true)
-    // Filter out routes starting with upper-case, for eg, NotFoundInDev
+    // 过滤掉以大写字母开头的路由，例如 NotFoundInDev
     .filter(
       (route) => route.name && route.name[0] !== route.name[0].toUpperCase(),
     )
-    // Remove dynamic routes
+    // 删除动态路由
     .filter((route) => !route.path.includes(':'))
-    // Include only ones that has a title (which are defined via definePageMeta in pages)
+    // 仅包含具有标题的内容（通过页面中的 DefinePageMeta 定义）
     .filter((route) => route.meta.title)
     .filter((route) => route.path !== '/try-now')
     .sort((a, b) =>
@@ -31,8 +31,8 @@ export const useNav = () => {
     })
 
   const navlinksFromConfig = site.nav
-  // const navlinks = computed(() => navlinksFromRouter || navlinksFromConfig)
-  // TODO: Use navlinksFromConfig if using dynamic routes, or customized nav-links
+  // const navlinks = 计算(() => navlinksFromRouter || navlinksFromConfig)
+  // TODO：如果使用动态路由或自定义导航链接，请使用 navlinksFromConfig
   const navlinks = computed(() => navlinksFromConfig || navlinksFromRouter)
 
   const navlinksPrimary = computed(() => {

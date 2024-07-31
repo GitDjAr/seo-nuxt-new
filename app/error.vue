@@ -41,8 +41,9 @@
       "
     >
       <div style="font-size: 1.875rem; line-height: 2.25rem">
-        {{ is404 ? 'This page could not be found' : 'An error occurred' }}
+        {{ is404 ? '找不到该页面' : '发生错误' }}
       </div>
+      This page could not be found
       <div style="font-size: 1.25rem; line-height: 1.75rem opacity: 0.5;">
         您似乎访问了损坏的链接或输入了无效的网址 存在于该网站上。
       </div>
