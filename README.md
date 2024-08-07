@@ -142,6 +142,13 @@ npm run unlighthouse # 使用来自https://unlighthouse.dev/的npx unlighthouse�
 }
 ```
 
-## 社区
+## 功能详情
 
-- [Vue Designer社区](https://discord.gg/BYp45Nnu5T)
+- 首页介绍
+- 关于我们
+- 支付页面
+- 文章页面
+- 付费文章页面
+- 付费资源
+- 引流公众号
+- 引流群
