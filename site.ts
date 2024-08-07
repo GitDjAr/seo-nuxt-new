@@ -18,7 +18,7 @@ export default {
   titleSeparator: '|', // default
   nav: [
     { text: '首页', link: '/', type: 'primary', icon: 'i-mdi-home' },
-    { text: '立即采用', link: '/adopt', type: 'primary', icon: 'i-mdi-home' },
+    { text: '项目明细', link: '/adopt', type: 'primary', icon: 'i-mdi-home' },
     {
       text: 'Donate',
       link: '/quick-start',
@@ -33,7 +33,7 @@ export default {
     },
     { text: 'Blog', link: '/blog', type: 'secondary', icon: 'i-mdi-home' },
     {
-      text: '志愿者',
+      text: '订阅',
       link: '/volunteer',
       type: 'secondary',
       icon: 'i-mdi-home',

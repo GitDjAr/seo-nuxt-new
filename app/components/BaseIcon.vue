@@ -14,10 +14,6 @@
       type: String,
       default: '',
     },
-    color: {
-      type: String,
-      default: null,
-    },
     height: {
       type: String,
       default: '',
@@ -37,7 +33,6 @@
     const height = addUnit(props.height) || width
     const display = 'inline-block'
     return {
-      color: props.color,
       width,
       height,
       display,

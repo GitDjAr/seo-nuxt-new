@@ -82,7 +82,8 @@ export default defineNuxtConfig({
   ],
   svgo: {
     // 自动导入 svg
-    autoImportPath: './public/svg/'
+    autoImportPath: '~/assets/svg',
+    componentPrefix: 'icon',
   },
 
   //开发者可以显著改善网页在加载过程中的视觉稳定性，尤其是在使用自定义字体的情况下。这是提高网页性能和用户体验的一个重要方面。

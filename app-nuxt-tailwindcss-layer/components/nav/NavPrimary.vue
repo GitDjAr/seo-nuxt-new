@@ -26,7 +26,7 @@
         class="!rounded-lg"
       />
     </div>
-    <BaseButton
+    <!-- <BaseButton
       class="ml-3"
       target="_blank"
       to="https://maki_he.com"
@@ -37,7 +37,7 @@
       <template #trailing>
         <BaseIcon name="i-mdi-pine-tree" height="24px" />
       </template>
-    </BaseButton>
+    </BaseButton> -->
   </div>
 </template>
 

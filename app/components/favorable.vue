@@ -5,7 +5,7 @@
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-xl text-center">
       <p
-        class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+        class="mt-2 text-3xl font-bold tracking-tight text-primary-500 dark:text-purple-300 sm:text-4xl"
       >
         清单收到了很多用户的好评
       </p>

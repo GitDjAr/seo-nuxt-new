@@ -1,6 +1,4 @@
-<script setup lang="ts">
-  //...
-</script>
+<script setup lang="ts"></script>
 <template>
   <footer class="pt-12">
     <div class="container mx-auto px-8">
@@ -10,9 +8,11 @@
         >
           <NuxtLink class="-ml-6" to="/">
             <div to="/" class="font-serif inline-flex items-center text-3xl">
-              <IconLogo />
+              <h6>
+                <IconLogo />
+              </h6>
               <h6 class="font-serif inline-flex items-center text-3xl">
-                AI副业
+                <!-- AI副业 -->
               </h6>
             </div>
           </NuxtLink>
@@ -42,8 +42,7 @@
               >
                 <BaseIcon
                   name="i-ri-bilibili-line"
-                  class="text-2xl"
-                  color="#02b5da"
+                  class="text-2xl !text-primary-700"
                   width="28px"
                 />
               </NuxtLink>
@@ -143,7 +142,7 @@
               <NuxtLink
                 to="/volunteer"
                 class="hover:text-primary-600 dark:text-primary-200"
-                >志愿者</NuxtLink
+                >订阅我们</NuxtLink
               >
             </li>
           </ul>

@@ -23,7 +23,7 @@
           <BaseIcon
             name="i-ri-bilibili-line"
             class="text-2xl"
-            color="#02b5da"
+            color="primary"
             width="28px"
           />
         </NuxtLink>
