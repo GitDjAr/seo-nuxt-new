@@ -20,7 +20,7 @@
 
 ### 1. 克隆到本地
 
-[在GitHub上从此模板创建仓库](https://github.com/pinegrow/happy-paws-with-nuxt-tailwindcss/generate)。
+[在GitHub上从此模板创建仓库](https://github.com/GitDjAr/seo-nuxt-new/generate)。
 
 (或者)
 
@@ -72,7 +72,7 @@ npm run unlighthouse # 使用来自https://unlighthouse.dev/的npx unlighthouse�
 ### 部署到Netlify
 
 您可以通过点击此按钮将此仓库部署为您自己的站点以进行探索和实验。
-[![部署到Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Pinegrow/happy-paws-with-nuxt-tailwindcss)
+[![部署到Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/GitDjAr/seo-nuxt-new)
 
 查看[部署文档](https://nuxt.com/docs/getting-started/deployment)以获取更多信息。
 

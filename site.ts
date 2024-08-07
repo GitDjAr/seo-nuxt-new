@@ -4,11 +4,11 @@
 
 export default {
   name: 'Happy Paws',
-  description: 'Adopt Your Fur Mate',
-  logo: 'i-noto:cat-face',
+  description: '',
+  logo: 'i-fa6-solid-piggy-bank',
   author: 'Pinegrow',
   url: 'https://happy-paws-with-nuxt-tailwindcss.netlify.app',
-  github: 'https://github.com/pinegrow/happy-paws-with-nuxt-tailwindcss',
+  github: 'https://github.com/GitDjAr/seo-nuxt-new',
   defaultLocale: 'en', // default
   identity: {
     type: 'Organization',
@@ -17,8 +17,8 @@ export default {
   trailingSlash: false, // default
   titleSeparator: '|', // default
   nav: [
-    { text: 'Home', link: '/', type: 'primary', icon: 'i-mdi-home' },
-    { text: 'Adopt Now', link: '/adopt', type: 'primary', icon: 'i-mdi-home' },
+    { text: '首页', link: '/', type: 'primary', icon: 'i-mdi-home' },
+    { text: '立即采用', link: '/adopt', type: 'primary', icon: 'i-mdi-home' },
     {
       text: 'Donate',
       link: '/quick-start',
@@ -26,14 +26,14 @@ export default {
       icon: 'i-mdi-home',
     },
     {
-      text: 'Articles',
+      text: '文章',
       link: '/articles',
       type: 'secondary',
       icon: 'i-mdi-home',
     },
     { text: 'Blog', link: '/blog', type: 'secondary', icon: 'i-mdi-home' },
     {
-      text: 'Volunteer',
+      text: '志愿者',
       link: '/volunteer',
       type: 'secondary',
       icon: 'i-mdi-home',

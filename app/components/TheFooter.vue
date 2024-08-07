@@ -10,6 +10,7 @@
         >
           <NuxtLink class="-ml-6" to="/">
             <div to="/" class="font-serif inline-flex items-center text-3xl">
+              <IconLogo />
               <h6 class="font-serif inline-flex items-center text-3xl">
                 AI副业
               </h6>

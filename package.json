@@ -5,7 +5,7 @@
   "homepage": "https://happy-paws-with-nuxt-tailwindcss.netlify.app",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pinegrow/happy-paws-with-nuxt-tailwindcss.git"
+    "url": "https://github.com/GitDjAr/seo-nuxt-new.git"
   },
   "scripts": {
     "dev": "nuxt dev",
@@ -27,6 +27,7 @@
     "@vueuse/core": "^10.11.0",
     "lite-youtube-embed": "^0.3.2",
     "nuxt": "^3.12.4",
+    "nuxt-svgo": "^4.0.3",
     "pinia": "^2.1.7"
   },
   "devDependencies": {

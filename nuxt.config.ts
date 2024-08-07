@@ -70,6 +70,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@vueuse/nuxt',
     '@pinia/nuxt',
+    'nuxt-svgo',// 转换 svg   https://nuxt.com/modules/nuxt-svgo?ref=sfeir.dev
     // '@nuxtjs/html-validator',
     '@nuxt/image',
     '@vee-validate/nuxt',
@@ -79,6 +80,10 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/eslint',
   ],
+  svgo: {
+    // 自动导入 svg
+    autoImportPath: './public/svg/'
+  },
 
   //开发者可以显著改善网页在加载过程中的视觉稳定性，尤其是在使用自定义字体的情况下。这是提高网页性能和用户体验的一个重要方面。
   // https://dev.to/jacobandrewsky/improving-performance-of-nuxt-with-fontaine-5dim

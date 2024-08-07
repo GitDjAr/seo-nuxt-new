@@ -29,7 +29,7 @@
                 size="xl"
                 label="让我们开始"
                 target="_blank"
-                to="https://github.com/pinegrow/happy-paws-with-nuxt-tailwindcss"
+                to="https://github.com/GitDjAr/seo-nuxt-new"
               >
                 <div class="inline-block ml-1 p-1.5 text-lg">让我们开始</div>
                 <BaseIcon height="28px" />
