@@ -46,10 +46,15 @@
             </form>
           </div>
           <div>
-            <iframe
+            <!-- <iframe
               src="https://mp.weixin.qq.com/s/vBvV0do02lBDZe1_K4fHog"
               frameborder="0"
-            />
+            /> -->
+            <h4>也可关注公众号进行最新消息的获取</h4>
+            <div class="flex justify-center">
+              <NuxtImg class="w-56" src="~/assets/images/QRcode_SP.png" />
+              <NuxtImg class="w-56" src="~/assets/images/QRcode_A.png" />
+            </div>
           </div>
         </div>
       </div>
