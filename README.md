@@ -8,7 +8,7 @@
 
 ## Vue Designer
 
-这是一个由[Pinegrow](https://pinegrow.com/)开发的支持Mac、Windows和Linux的Vue应用桌面可视化编辑器。您可以在[Vue Designer](https://vuedesigner.com)免费试用!
+这是一个由[Pinegrow](https://pinegrow.com/)开发的支持Mac、Windows和Linux的Vue应用桌面可视化编辑器。您可以在[Vue Designer](https://maki_he.com)免费试用!
 
 它允许您可视化设计🎨您的Vue单文件组件,并在构建基于组件的Vue应用时提高您的生产力和创造力。
 

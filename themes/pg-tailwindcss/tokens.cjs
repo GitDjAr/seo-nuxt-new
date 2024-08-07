@@ -220,7 +220,6 @@ const pg_fonts = {
 }
 
 const user_avatar = [
-
   'https://q2.itc.cn/q_70/images03/20240714/5265b8330b054f4294314df029b3a530.jpeg',
   'https://img0.baidu.com/it/u=1450269893,1819089861&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=800',
   'https://ww1.sinaimg.cn/mw690/007aMX11ly1hra2350qo4j30u00u0gpr.jpg',

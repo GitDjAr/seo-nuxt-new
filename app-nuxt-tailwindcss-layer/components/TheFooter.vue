@@ -7,15 +7,7 @@
     <div class="container mx-auto px-8">
       <div class="flex flex-wrap justify-center space-x-8">
         <NuxtLink
-          href="https://www.facebook.com/vuedesigner"
-          aria-label="facebook"
-          external
-          target="_blank"
-        >
-          <BaseIcon name="i-logos-facebook" class="text-2xl" width="28px" />
-        </NuxtLink>
-        <NuxtLink
-          href="https://twitter.com/vuedesigner"
+          href="https://twitter.com/maki_he"
           aria-label="twitter"
           external
           target="_blank"
@@ -23,15 +15,20 @@
           <BaseIcon name="i-logos-twitter" class="text-2xl" width="28px" />
         </NuxtLink>
         <NuxtLink
-          href="https://discord.gg/BYp45Nnu5T"
+          href="https://space.bilibili.com/43090668?spm_id_from=..0.0"
           aria-label="discord"
           external
           target="_blank"
         >
-          <BaseIcon name="i-logos-discord-icon" class="text-2xl" width="28px" />
+          <BaseIcon
+            name="i-ri-bilibili-line"
+            class="text-2xl"
+            color="#02b5da"
+            width="28px"
+          />
         </NuxtLink>
         <NuxtLink
-          href="https://www.youtube.com/@vuedesigner"
+          href="https://www.youtube.com/@maki_he"
           aria-label="youtube"
           external
           target="_blank"

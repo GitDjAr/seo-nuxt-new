@@ -8,7 +8,7 @@
 
 ## Vue Designer
 
-这是一个由[Pinegrow](https://pinegrow.com/)开发的支持Mac、Windows和Linux的Vue应用桌面可视化编辑器。您可以在[Vue Designer](https://vuedesigner.com)免费试用!
+这是一个由[Pinegrow](https://pinegrow.com/)开发的支持Mac、Windows和Linux的Vue应用桌面可视化编辑器。您可以在[Vue Designer](https://maki_he.com)免费试用!
 
 它允许您可视化设计🎨您的Vue单文件组件,并在构建基于组件的Vue应用时提高您的生产力和创造力。
 
@@ -144,4 +144,4 @@ npm run unlighthouse # 使用来自https://unlighthouse.dev/的npx unlighthouse�
 
 ## 社区
 
-- [Vue Designer社区](https://discord.gg/BYp45Nnu5T)
+- [Vue Designer社区](https://space.bilibili.com/43090668?spm_id_from=..0.0)

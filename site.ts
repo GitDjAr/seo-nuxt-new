@@ -13,7 +13,7 @@ export default {
   identity: {
     type: 'Organization',
   } as any,
-  twitter: '@vuedesigner',
+  twitter: '@maki_he',
   trailingSlash: false, // default
   titleSeparator: '|', // default
   nav: [
