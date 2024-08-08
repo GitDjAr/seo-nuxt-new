@@ -3,7 +3,7 @@
 // @unocss-include
 
 export default {
-  name: 'Happy Paws',
+  name: '副业精选',
   description: 'Adopt Your Fur Mate',
   logo: 'i-noto:cat-face',
   author: 'Pinegrow',

@@ -89,14 +89,18 @@
                 </g>
               </svg>
               <h6 class="font-serif inline-flex items-center text-3xl">
-                Happy Paws
+                副业精选
               </h6>
             </div>
           </NuxtLink>
-          <p class="mt-2 text-center w-full lg:text-left">
-            Duis 箭袋毒害猫，因此 Tincidunt
-            本身并不是结果。自由公平的飞行，除了一些足球之外。事实上，身体始终处于极限。
-          </p>
+          <div class="mt-2 text-center w-full lg:text-left">
+            一个专注于
+            <b class="text-primary-600">人工智能(AIGC)</b> 技术及其应用
+            <b class="text-primary-600">(副业探索)</b>的社区
+            <p class="my-1">低成本,低门槛的操作方式</p>
+            我们的目标是让每个用户都享受到ai带来的
+            <b class="text-primary-600">机遇</b>
+          </div>
           <div class="inline-flex mt-6 space-x-3">
             <div class="flex flex-wrap space-x-4">
               <NuxtLink

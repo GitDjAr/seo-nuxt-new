@@ -26,10 +26,10 @@
           <h6
             class="font-bold mb-2 text-primary-600 dark:text-primary-200 uppercase"
           >
-            我们的工作
+            我们的目标
           </h6>
-          <h3 class="capitalize mb-6">我们产生的影响</h3>
-          <p>解决痛苦本身很重要，教育精英也很重要。</p>
+          <h3 class="capitalize mb-6">我们产生的成果</h3>
+          <p>主人何为言少钱，径须沽取对君酌。— 李白 <i>《将进酒》</i></p>
           <div class="-mx-4 flex flex-wrap items-center">
             <div class="px-4 py-6 w-1/2">
               <h2 class="mb-2">1200+</h2>

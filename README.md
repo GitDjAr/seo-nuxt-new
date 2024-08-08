@@ -1,4 +1,4 @@
-# Happy Paws - 使用Nuxt和Tailwind CSS的全栈、SEO友好、高性能应用
+# 副业精选 - 使用Nuxt和Tailwind CSS的全栈、SEO友好、高性能应用
 
 这是一个使用Nuxt 3全栈(SPA-SSR)开发的宠物领养组织应用。宠物数据通过服务器路由(由Nitro驱动)的API获取,静态生成的文章从外部REST API源获取,博客使用markdown文件编写,所有内容都使用Tailwind CSS的强大功能和美观性进行样式设计。
 
