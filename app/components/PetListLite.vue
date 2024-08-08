@@ -18,8 +18,8 @@
             </p>
           </div>
           <div class="px-4 text-center w-full">
-            <BaseButton size="xl" to="/adopt" color="secondary"
-              ><span>认识他们所有人></span>
+            <BaseButton size="xl" to="/adopt" color="primary"
+              ><span>认识他们所有人</span>
             </BaseButton>
           </div>
         </div>

@@ -27,11 +27,11 @@
         {{ breed }}
       </p>
       <BaseButton size="lg"
-        ><span>Adopt Now</span>
+        ><span>查看详情</span>
         <BaseIcon
           name="i-ri-heart-add-fill"
           height="20px"
-          class="!text-tertiary-600 md:ml-1.5"
+          class="!text-red-600 md:ml-1.5"
         />
       </BaseButton>
     </div>

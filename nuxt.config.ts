@@ -34,7 +34,7 @@ export default defineNuxtConfig({
   //   modules: fileURLToPath(new URL('modules', import.meta.url)),
   // },
   // },
-
+  //实验性功能,启用了组件岛屿（component islands）特性。
   experimental: {
     componentIslands: true,
   },
@@ -46,13 +46,31 @@ export default defineNuxtConfig({
       meta: [{ charset: 'utf-8' }], // nuxt默认
     },
   },
-
+  /**
+   * 模块:
+    配置文件列出了多个 Nuxt 模块，包括 Pinegrow、UnoCSS、Content、VueUse、Pinia 等。
+    CSS 和 PostCSS:
+    配置了全局 CSS 文件和 PostCSS 插件，包括 Tailwind CSS。
+    图片处理:
+    使用 @nuxt/image 模块配置了图片处理选项。
+    表单验证:
+    配置了 VeeValidate 用于表单验证。
+    内容管理:
+    配置了 Nuxt Content 模块，包括 Markdown 处理和代码高亮。
+    状态管理:
+    配置了 Pinia 用于状态管理。
+    SEO 相关:
+    配置了多个 SEO 相关的模块和选项，如站点地图、Open Graph 图片等。
+    开发工具:
+    配置了 ESLint 和 Pinegrow Live Designer 等开发工具。
+   */
   modules: [
     '@pinegrow/nuxt-module',
     '@unocss/nuxt',
     '@nuxt/content',
     '@vueuse/nuxt',
     '@pinia/nuxt',
+    'nuxt-svgo',// 转换 svg   https://nuxt.com/modules/nuxt-svgo?ref=sfeir.dev
     // '@nuxtjs/html-validator',
     '@nuxt/image',
     '@vee-validate/nuxt',
@@ -62,6 +80,13 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/eslint',
   ],
+  svgo: {
+    // 自动导入 svg
+    autoImportPath: '~/assets/svg',
+    componentPrefix: 'icon',
+  },
+
+  //开发者可以显著改善网页在加载过程中的视觉稳定性，尤其是在使用自定义字体的情况下。这是提高网页性能和用户体验的一个重要方面。
   // https://dev.to/jacobandrewsky/improving-performance-of-nuxt-with-fontaine-5dim
   fontMetrics: {
     fonts: ['Inter', 'Kalam'],
@@ -88,7 +113,12 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-
+  /**
+   * 目的：
+    这个配置主要用于处理特定组件中的资源 URL，确保它们能被正确地解析和处理。
+    transformAssetUrls：
+    这是 Vite 的一个特性，用于转换模板中的资源 URL。 它告诉 Vite 如何处理特定组件的特定属性中的 URL。
+   */
   vite: {
     vue: {
       template: {
@@ -195,8 +225,10 @@ export default defineNuxtConfig({
     // dirs: ['my-components'],
   },
 
+  //这个配置告诉 Vue 编译器如何识别和处理自定义 HTML 元素。
   vue: {
     compilerOptions: {
+      //这是一个函数，用于判断某个标签是否应被视为自定义元素。
       isCustomElement: (tag) => tag === 'lite-youtube',
     },
   },
@@ -257,13 +289,14 @@ export default defineNuxtConfig({
   },
   linkChecker: {
     enabled: false,
-    excludeLinks: ['https://twitter.com/vuedesigner'],
+    excludeLinks: ['https://twitter.com/maki_he'],
     report: {
       html: true,
       markdown: true,
     },
   },
 
+  //保持这个前缀可以确保与其他使用 UnoCSS 的项目保持一致性，并避免潜在的冲突。
   unocss: {
     presets: [
       presetIcons({

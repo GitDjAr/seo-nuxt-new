@@ -26,18 +26,18 @@
         class="!rounded-lg"
       />
     </div>
-    <BaseButton
+    <!-- <BaseButton
       class="ml-3"
       target="_blank"
-      to="https://vuedesigner.com"
+      to="https://maki_he.com"
       size="xl"
       color="secondary"
     >
-      <span class="pl-2">Try Now</span>
+      <span class="pl-2">现在试试</span>
       <template #trailing>
         <BaseIcon name="i-mdi-pine-tree" height="24px" />
       </template>
-    </BaseButton>
+    </BaseButton> -->
   </div>
 </template>
 

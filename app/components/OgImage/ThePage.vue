@@ -39,7 +39,7 @@
     },
     twitter: {
       type: String,
-      default: '@vuedesigner',
+      default: '@maki_he',
     },
   })
 

@@ -1,6 +1,4 @@
-<script setup lang="ts">
-  //...
-</script>
+<script setup lang="ts"></script>
 <template>
   <footer class="pt-12">
     <div class="container mx-auto px-8">
@@ -10,86 +8,13 @@
         >
           <NuxtLink class="-ml-6" to="/">
             <div to="/" class="font-serif inline-flex items-center text-3xl">
-              <svg
-                version="1.0"
-                xmlns="http://www.w3.org/2000/svg"
-                width="2.5em"
-                xml:space="preserve"
-                fill="currentColor"
-                viewBox="0 0 240 240"
-                height="2.5em"
-                class="mr-2"
+              <h6
+                class="font-serif inline-flex items-center text-3xl text-primary"
               >
-                <g transform="translate(17.704 -9.215)">
-                  <path
-                    d="M92.45 183.38a61.38 61.38 0 00-30.07 15.35 9.84 9.84 0 01-15.9-3.73 61.65 61.65 0 11115.83-.18 9.87 9.87 0 01-16 3.9 61.43 61.43 0 00-30.07-15.35"
-                    fill="#99cd31"
-                    stroke="#475f17"
-                    stroke-miterlimit="10"
-                    stroke-width="12"
-                  />
-                  <circle
-                    cx="17.18"
-                    cy="17.18"
-                    r="17.18"
-                    transform="rotate(-22.39 282.115 44.556)"
-                    fill="#99cd31"
-                    stroke="#475f17"
-                    stroke-miterlimit="10"
-                    stroke-width="12"
-                  />
-                  <circle
-                    cx="17.18"
-                    cy="17.18"
-                    r="17.18"
-                    transform="rotate(-22.39 179.693 -83.499)"
-                    fill="#99cd31"
-                    stroke="#475f17"
-                    stroke-miterlimit="10"
-                    stroke-width="12"
-                  />
-                  <circle
-                    cx="17.18"
-                    cy="17.18"
-                    r="17.18"
-                    transform="rotate(-67.61 176.48 -54.394)"
-                    fill="#99cd31"
-                    stroke="#475f17"
-                    stroke-miterlimit="10"
-                    stroke-width="12"
-                  />
-                  <circle
-                    cx="17.18"
-                    cy="17.18"
-                    r="17.18"
-                    transform="rotate(-67.61 119.616 -48.074)"
-                    fill="#99cd31"
-                    stroke="#475f17"
-                    stroke-miterlimit="10"
-                    stroke-width="12"
-                  />
-                  <circle
-                    cx="3.19"
-                    cy="3.19"
-                    r="3.19"
-                    transform="translate(101.16 179.05)"
-                    fill="#475f17"
-                  />
-                  <path
-                    d="M89.72 137a20.84 20.84 0 00-20.84 20.84v.16"
-                    fill="none"
-                    stroke="#475f17"
-                    stroke-miterlimit="10"
-                    stroke-width="12"
-                  />
-                  <path
-                    d="M15.7 47.82h-2.75v-2.76a3.4 3.4 0 00-6.79 0v2.76H3.4a3.4 3.4 0 000 6.79h2.75v2.76a3.4 3.4 0 006.79 0v-2.76h2.76a3.4 3.4 0 000-6.79zm172.43 9.55h-2.76v-2.76a3.4 3.4 0 00-6.79 0v2.76h-2.76a3.4 3.4 0 000 6.79h2.76v2.76a3.4 3.4 0 006.79 0v-2.76h2.76a3.4 3.4 0 000-6.79zM25.25 203.82H22.5v-2.76a3.4 3.4 0 00-6.79 0v2.76h-2.76a3.4 3.4 0 000 6.79h2.75v2.76a3.4 3.4 0 006.79 0v-2.76h2.76a3.4 3.4 0 000-6.79z"
-                    fill="#475f17"
-                  />
-                </g>
-              </svg>
-              <h6 class="font-serif inline-flex items-center text-3xl">
-                副业精选
+                AI副业
+              </h6>
+              <h6 class="pl-3">
+                <IconLogo class="!w-16 !h-16" />
               </h6>
             </div>
           </NuxtLink>
@@ -104,19 +29,7 @@
           <div class="inline-flex mt-6 space-x-3">
             <div class="flex flex-wrap space-x-4">
               <NuxtLink
-                href="https://www.facebook.com/vuedesigner"
-                aria-label="facebook"
-                external
-                target="_blank"
-              >
-                <BaseIcon
-                  name="i-logos-facebook"
-                  class="text-2xl"
-                  width="28px"
-                />
-              </NuxtLink>
-              <NuxtLink
-                href="https://twitter.com/vuedesigner"
+                href="https://twitter.com/maki_he"
                 aria-label="twitter"
                 external
                 target="_blank"
@@ -128,19 +41,19 @@
                 />
               </NuxtLink>
               <NuxtLink
-                href="https://discord.gg/BYp45Nnu5T"
-                aria-label="discord"
+                href="https://space.bilibili.com/43090668?spm_id_from=..0.0"
+                aria-label="bilibili"
                 external
                 target="_blank"
               >
                 <BaseIcon
-                  name="i-logos-discord-icon"
-                  class="text-2xl"
+                  name="i-ri-bilibili-line"
+                  class="text-2xl !text-primary-700"
                   width="28px"
                 />
               </NuxtLink>
               <NuxtLink
-                href="https://www.youtube.com/@vuedesigner"
+                href="https://www.youtube.com/@maki_he"
                 aria-label="youtube"
                 external
                 target="_blank"
@@ -154,44 +67,44 @@
             </div>
           </div>
           <div class="my-6 text-center">
-            <NuxtLink to="/">+1 234 567-890</NuxtLink>
+            <NuxtLink to="/">18881732196</NuxtLink>
             <br />
-            <NuxtLink to="/">hello@fantico.com</NuxtLink>
+            <NuxtLink to="/">xdj773750101@gmail.com</NuxtLink>
           </div>
         </div>
         <div
           class="flex flex-col items-center p-4 w-full sm:w-1/2 md:flex-1 md:w-1/3 lg:items-start"
         >
           <h2 class="font-bold text-primary-600 dark:text-primary-200 text-xl">
-            General
+            一般
           </h2>
           <ul class="text-center lg:mt-2 lg:text-left">
             <li class="mb-4">
               <NuxtLink
                 to="/"
                 class="hover:text-primary-600 dark:text-primary-200"
-                >FAQ</NuxtLink
+                >常见问题</NuxtLink
               >
             </li>
             <li class="mb-4">
               <NuxtLink
                 to="/"
                 class="hover:text-primary-600 dark:text-primary-200"
-                >News</NuxtLink
+                >新闻</NuxtLink
               >
             </li>
             <li class="mb-4">
               <NuxtLink
                 to="/"
                 class="hover:text-primary-600 dark:text-primary-200"
-                >Careers</NuxtLink
+                >职业生涯</NuxtLink
               >
             </li>
             <li class="mb-4">
               <NuxtLink
                 to="/"
                 class="hover:text-primary-600 dark:text-primary-200"
-                >Contact Us</NuxtLink
+                >联系我</NuxtLink
               >
             </li>
           </ul>
@@ -200,28 +113,28 @@
           class="flex flex-col items-center p-4 w-full sm:w-1/2 md:flex-1 md:w-1/3 lg:items-start"
         >
           <h2 class="font-bold text-primary-600 dark:text-primary-200 text-xl">
-            Links
+            链接
           </h2>
           <ul class="text-center lg:mt-2 lg:text-left">
             <li class="mb-4">
               <NuxtLink
                 to="/adopt"
                 class="hover:text-primary-600 dark:text-primary-200"
-                >Adopt Now</NuxtLink
+                >立即领养</NuxtLink
               >
             </li>
             <li class="mb-4">
               <NuxtLink
                 to="/quick-start"
                 class="hover:text-primary-600 dark:text-primary-200"
-                >Donate</NuxtLink
+                >捐赠</NuxtLink
               >
             </li>
             <li class="mb-4">
               <NuxtLink
                 to="/articles"
                 class="hover:text-primary-600 dark:text-primary-200"
-                >Articles</NuxtLink
+                >文章</NuxtLink
               >
             </li>
             <li class="mb-4">
@@ -235,21 +148,14 @@
               <NuxtLink
                 to="/volunteer"
                 class="hover:text-primary-600 dark:text-primary-200"
-                >Volunteer</NuxtLink
-              >
-            </li>
-            <li class="mb-4">
-              <NuxtLink
-                to="#"
-                class="hover:text-primary-600 dark:text-primary-200"
-                >Our Mission</NuxtLink
+                >订阅我们</NuxtLink
               >
             </li>
           </ul>
         </div>
         <div class="flex flex-col items-center p-4 w-full md:w-1/3">
           <h2 class="font-bold text-primary-600 dark:text-primary-200 text-xl">
-            Gallery
+            业务
           </h2>
           <div class="-mx-2 flex flex-wrap items-center lg:mt-2">
             <div class="p-2 w-1/2 sm:w-4/12">
@@ -305,7 +211,7 @@
         <div class="flex flex-col sm:w-full md:items-end">
           <hr class="mb-4 opacity-25" />
           <p class="py-1 text-sm sm:text-center">
-            &copy; 2002 -2021。保留所有权利 -公司名称
+            &copy; 2020 - 2030。保留所有权利
           </p>
         </div>
       </div>

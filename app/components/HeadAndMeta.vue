@@ -98,7 +98,7 @@
     twitterDescription: theDescription,
     // twitterImage: image, // set by @nuxtjs/seo & nuxt-og-image
     twitterImageAlt: theTitle.value,
-    twitterSite: '@vuedesigner',
+    twitterSite: '@maki_he',
     twitterCreator: '@techakayy',
     // twitterCard: 'summary_large_image', // set by @nuxtjs/seo & nuxt-og-image
   })
@@ -118,7 +118,7 @@
       <Meta name="twitter:description" :content="description" />
       <Meta property="twitter:image" content="image" />
       <Meta name="twitter:image:alt" :content="theTitle" />
-      <Meta name="twitter:site" content="@vuedesigner" />
+      <Meta name="twitter:site" content="@maki_he" />
       <Meta name="twitter:creator" content="@techakayy" />
       <Meta name="twitter:card" content="summary_large_image" /> -->
     </Head>
