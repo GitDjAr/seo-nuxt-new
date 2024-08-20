@@ -39,8 +39,13 @@
                   required
                   name="fields[email]"
                 />
-                <BaseButton type="submit" class="ml-2" variant="soft" size="md">
-                  订阅
+                <BaseButton
+                  type="submit"
+                  class="ml-2 px-5"
+                  variant="outline"
+                  size="md"
+                >
+                  订 阅
                 </BaseButton>
               </div>
             </form>
@@ -51,6 +56,7 @@
               frameborder="0"
             /> -->
             <h4>也可关注公众号进行最新消息的获取</h4>
+            <p class="mb-8">扫一扫即可关注</p>
             <div class="flex justify-center">
               <NuxtImg class="w-56" src="~/assets/images/QRcode_SP.png" />
               <NuxtImg class="w-56" src="~/assets/images/QRcode_A.png" />
