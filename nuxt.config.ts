@@ -1,5 +1,5 @@
 import { fileURLToPath, URL } from 'node:url'
-import { resolve } from 'pathe'
+import { resolve } from 'path'
 import presetIcons from '@unocss/preset-icons'
 import { bundledLanguages } from 'shiki'
 
@@ -19,6 +19,9 @@ export default defineNuxtConfig({
   extends: [
     './app-nuxt-tailwindcss-layer', // 导航栏和页脚组件
   ],
+  // nitro: {
+  //   compatibilityDate: '2024-10-15'
+  // }
   // ssr: false,
   // devtools: {enabled: false }, //默认启用，使用独立 Vue devtools 时禁用
 
