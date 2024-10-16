@@ -3,7 +3,7 @@
 </script>
 <template>
   <div class="mx-3">
-    <BaseButton
+    <!-- <BaseButton
       variant="ghost"
       class="!rounded-lg"
       aria-label="Toggle theme"
@@ -21,7 +21,7 @@
           class="text-2xl"
         />
       </transition>
-    </BaseButton>
+    </BaseButton> -->
   </div>
 </template>
 <style lang="postcss">

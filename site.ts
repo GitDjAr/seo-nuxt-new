@@ -3,13 +3,13 @@
 // @unocss-include
 
 export default {
-  name: 'Happy Paws',
+  name: '野路子副业',
   description: '',
   logo: 'i-fa6-solid-piggy-bank',
   author: 'Pinegrow',
   url: 'https://happy-paws-with-nuxt-tailwindcss.netlify.app',
   github: 'https://github.com/GitDjAr/seo-nuxt-new',
-  defaultLocale: 'en', // default
+  defaultLocale: 'ch-zn', // default
   identity: {
     type: 'Organization',
   } as any,
@@ -19,19 +19,19 @@ export default {
   nav: [
     { text: '首页', link: '/', type: 'primary', icon: 'i-mdi-home' },
     { text: '项目明细', link: '/adopt', type: 'primary', icon: 'i-mdi-home' },
-    {
-      text: 'Donate',
-      link: '/quick-start',
-      type: 'secondary',
-      icon: 'i-mdi-home',
-    },
+    // {
+    //   text: 'Donate',
+    //   link: '/quick-start',
+    //   type: 'secondary',
+    //   icon: 'i-mdi-home',
+    // },
     {
       text: '文章',
       link: '/articles',
       type: 'secondary',
       icon: 'i-mdi-home',
     },
-    { text: 'Blog', link: '/blog', type: 'secondary', icon: 'i-mdi-home' },
+    // { text: 'Blog', link: '/blog', type: 'secondary', icon: 'i-mdi-home' },
     {
       text: '订阅',
       link: '/volunteer',

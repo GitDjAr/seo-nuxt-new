@@ -34,9 +34,9 @@
   <div>
     <HeroSection />
     <Favorable />
-    <CallToAction />
+    <!-- <CallToAction /> -->
     <MiniDivider />
-    <OurMission />
+    <!-- <OurMission /> -->
     <PetListLite />
     <StatsSection />
   </div>
